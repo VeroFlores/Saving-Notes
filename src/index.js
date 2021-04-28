@@ -171,6 +171,7 @@ const initialState = {
   ],
 };
 const store = createStore(reducer, initialState);
+console.log(reducer);
 console.log(store);
 ReactDom.render(
   <Provider store={store}>
